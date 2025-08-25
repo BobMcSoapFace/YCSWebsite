@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "ycs website server",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.mjs"
+  },
+  "author": "yotepanda",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^10.2.1",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "react-router-dom": "^7.8.0"
+  }
+}
